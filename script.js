@@ -10,4 +10,6 @@ const user = {
   "friend": "?"
 };
 
-console.log(user.sym);
+let a = "name"
+
+console.log(user[name]);
