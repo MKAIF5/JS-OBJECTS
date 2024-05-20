@@ -8,6 +8,7 @@ const user = {
   passion: ["cricket" , "web develpment " , "gaming"],
   city: "karachi",
   "friend": "?"
+  "dost":
 };
 
 let a = "name"
