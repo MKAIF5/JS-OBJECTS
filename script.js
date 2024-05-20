@@ -14,7 +14,6 @@ const user = {
     
   },
 };
-
 console.log(user.salary);
 // user.age = "16";
 // console.log(user.age);
