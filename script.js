@@ -8,9 +8,13 @@ const user = {
   passion: ["cricket", "web develpment ", "gaming"],
   city: "karachi",
   friend: "?",
-  attendence: [false , 35 , true],
+  attendence: [false, 35, true],
+  salary: function sal() {
+    return 1000000;
+    
+  },
 };
 
-console.log(user.attendence[2]);
-user.age = "16";
-console.log(user.age);
+console.log(user.salary);
+// user.age = "16";
+// console.log(user.age);
