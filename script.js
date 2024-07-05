@@ -10,7 +10,7 @@ const user = {
   "friend": "?"
 };
 
-console.log(user.sym);
+// console.log(user.sym);
 //OBJECTS
 const mySym = Symbol("mykey1")
 const myObjects = {
@@ -35,7 +35,7 @@ const myObjects = {
 
 const kaifApp = new Object();
 const kaifApps = {};
-console.log(kaifApp); //singleTone
+// console.log(kaifApp); //singleTone
 // console.log(kaifApps);//nonSingletone
 
 const course = {
@@ -44,6 +44,10 @@ const course = {
   teacher: "shehzad"
 }
 
-for(key in course){
-  console.log(key + " " + course[key] );
-}
+const {courses : instructor} = course
+console.log(courses);
+
+
+// for(key in course){
+//   console.log(key + " " + course[key] );
+// }
